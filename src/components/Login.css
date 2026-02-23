@@ -1,0 +1,104 @@
+/* components/Login.css */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fff2fa 0%, #ffe6f5 100%);
+}
+
+.login-card {
+  background: white;
+  padding: 48px 40px;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px rgba(245, 55, 153, 0.15);
+  width: 100%;
+  max-width: 420px;
+}
+
+.login-title {
+  color: #f53799;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.user-type-selector {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.type-btn {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ffd9ec;
+  background: white;
+  color: #666;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.type-btn.active {
+  background: #f53799;
+  color: white;
+  border-color: #f53799;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  color: #333;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ffd9ec;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #f53799;
+  box-shadow: 0 0 0 3px rgba(245, 55, 153, 0.1);
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 24px;
+}
+
+.forgot-password a {
+  color: #f53799;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.signin-btn {
+  width: 100%;
+  padding: 16px;
+  background: #f53799;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signin-btn:hover {
+  background: #e02d88;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(245, 55, 153, 0.3);
+}
